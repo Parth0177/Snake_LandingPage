@@ -27,6 +27,7 @@
     <div class="nav-buttons">
     </div>
   </nav>
+    <button id="modeBtn" class="floating-btn">🌙</button>
 
   
   <button id="modeBtn" class="floating-btn" onclick="toggleMode()">🌙</button>
@@ -89,6 +90,9 @@
   </section>
 
   
+
+
+  
   <section id="signup">
     <h2>Sign Up</h2>
     <form>
@@ -104,16 +108,12 @@
   </footer>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-
-    
-    function toggleMode() {
-      document.body.classList.toggle('dark-mode');
-      const modeButton = document.getElementById('modeBtn');
-      modeButton.textContent = document.body.classList.contains('dark-mode') ? '🌞' : '🌙';
-    }
-  </script>
+  
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script src="script.js"></script>
+
 </html>
